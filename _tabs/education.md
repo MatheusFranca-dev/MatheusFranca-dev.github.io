@@ -1,6 +1,6 @@
 ---
-layout: archives
-title: Projects
+layout: education
+title: Education
 icon: fas fa-archive
 order: 3
 ---
