@@ -1,7 +1,7 @@
 ---
 layout: education
 title: Education
-icon: fas fa-archive
+icon: fas fa-user-graduate
 order: 3
 ---
 
