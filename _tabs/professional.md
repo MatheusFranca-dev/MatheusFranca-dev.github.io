@@ -21,3 +21,18 @@ order: 3
 - Functional Framework: Sensors calibration and robotics 
 - Credit hours: 30h
 - Other information: Graduation scholarship linked to the PETROBRAS - DIGISUB project of the Senai Cimatec program - ANP
+
+<h2 class="category">{{"Volunteer work"}}</h2>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<h3 class="category">{{"Rômulo Almeida school and Area 1 university"}}</h3>
+<hr style="height:1px;border-width:0;color:gray;background-color:gray">
+
+`2018` Assistant professor
+- Information: Social Responsibility Action. Robotics course for public high school students at Rômulo Almeida College.
+
+<h3 class="category">{{"Brazilian Robotics Olympiad"}}</h3>
+<hr style="height:1px;border-width:0;color:gray;background-color:gray">
+
+`2017` Judge
+- Information: Social Responsibility Action. Judge at Brazilian Robotics Olympiad.
