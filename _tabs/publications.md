@@ -34,7 +34,7 @@ order: 3
         &bull; Centro Universitário SENAI CIMATEC - Doity &emsp; &bull; Year: 2020 </p>
 </div>
 
-<div id="menu" style="background-color:rgba(0, 0, 0, 0.1);color:white;padding:20px; cursor: pointer;" onclick="window.location='http://www.proceedings.blucher.com.br/article-details/adam-a-virtual-humanoid-robot-model-based-on-open-source-approach-35595';">
+<div id="menu" style="background-color:rgba(0, 0, 0, 0.1);color:white;padding:20px; cursor: pointer;" onclick="window.location='https://www.proceedings.blucher.com.br/article-details/33259';">
     <h2 class="category">{{"DESENVOLVIMENTO DE UM PROTÓTIPO HUMANOIDE POR MEIO DE IMPRESSÕES 3D PARA DESENVOLVIMENTO DE NOVAS TECNOLOGIAS"}}</h2>
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
     <p> Matheus Henrique Nunes França, Fredson da Silva Oliveira and Oberdan Rocha Pinheiro <br>
