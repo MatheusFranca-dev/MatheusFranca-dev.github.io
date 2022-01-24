@@ -24,7 +24,10 @@
   type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/matheus-frança-b62044150'                  # Fill with your Linkedin homepage
-# -
+-
+  type: cv
+  icon: 'fas fa-file-alt'   # icons powered by <https://fontawesome.com/>
+  url:  'http://lattes.cnpq.br/3770120221319163'                  # Fill with your Linkedin homepage
 #   type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
