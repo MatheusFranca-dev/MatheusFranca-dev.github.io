@@ -12,7 +12,7 @@ order: 3
   <button class="btn" onclick="filterSelection('horus')"> Horus</button>
 </div>
 
-<div class="container">
+<div class="container_publi">
     <div class="filterDiv adam" style="background-color:rgba(255, 255, 255, 0.05);color:white;padding:20px; cursor: pointer;" onclick="window.location='http://www.brazilianjournals.com/index.php/BASR/article/view/15611/12841';">
         <h2 class="category">{{"DESENVOLVIMENTO DE UM PROTÓTIPO HUMANOIDE POR MEIO DE IMPRESSÕES 3D PARA DESENVOLVIMENTO DE NOVAS TECNOLOGIAS"}}</h2>
         <hr style="height:2px;border-width:0;color:gray;background-color:gray">
