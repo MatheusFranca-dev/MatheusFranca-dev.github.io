@@ -4,16 +4,17 @@ icon: fas fa-file
 order: 3
 ---
 
+<!-- Style -->
 <link rel="stylesheet" href="../assets/css/hover_publi.css" />
 
+<!-- Btn Selector -->
 <div id="myBtnContainer">
   <button class="btn ativo" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('adam')"> Adam</button>
   <button class="btn" onclick="filterSelection('horus')"> Horus</button>
 </div>
 
-<!-- <br> -->
-<!-- <div class="container_publi"> -->
+<!-- Publications -->
 <div class="filterDiv adam" onclick="window.location='http://www.brazilianjournals.com/index.php/BASR/article/view/15611/12841';">
     <h2 class="category">{{"DESENVOLVIMENTO DE UM PROTÓTIPO HUMANOIDE POR MEIO DE IMPRESSÕES 3D PARA DESENVOLVIMENTO DE NOVAS TECNOLOGIAS"}}</h2>
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
@@ -44,54 +45,6 @@ order: 3
     <p> Matheus Henrique Nunes França, Fredson da Silva Oliveira and Oberdan Rocha Pinheiro <br>
         &bull; Journal: Blucher Proceedings &emsp; &bull; Volume: 6 &emsp; &bull; Number: 3 &emsp; &bull; Year: 2019 </p>
 </div>
-<!-- </div> -->
-
-
-
-
 
 <!-- ------------------- SCRIPT ------------------- -->
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("ativo");
-    current[0].className = current[0].className.replace(" ativo", "");
-    this.className += " ativo";
-  });
-}
-</script>
+<script src="{{ base.url | prepend: site.url }}/assets/js/custom/publication.js"></script>
