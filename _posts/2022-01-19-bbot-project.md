@@ -101,7 +101,7 @@ Also see the following:
         <tr class="font-weight-bolder" style="text-align: center margin-top: 0">
           <td width="33%"><center><a href="https://www.linkedin.com/in/matheus-frança-b62044150">Matheus França</a></center></td>
           <td></td>
-          <td width="33%"><center><a href="linkedin.com/in/lucas-lins-souza-51b1909a">Lucas Souza</a></center></td>
+          <td width="33%"><center><a href="https://linkedin.com/in/lucas-lins-souza-51b1909a">Lucas Souza</a></center></td>
           <td></td>
           <td width="33%"><center><a href="https://mhar-vell.github.io/portfolio/">Marco Reis</a></center></td>
           <td></td>
