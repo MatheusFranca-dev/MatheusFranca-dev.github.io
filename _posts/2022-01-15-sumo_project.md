@@ -37,7 +37,7 @@ You could see some of the competitions we participate and our work in the [BrBot
 A preview of Paladin 3d model can be seen below.
 
 <center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Paladino sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="720" height="400" src="https://sketchfab.com/models/58b343517470464099b1ab5970b61805/embed?autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/paladino-sumo-robot-58b343517470464099b1ab5970b61805?utm_medium=embed&utm_campaign=share-popup&utm_content=58b343517470464099b1ab5970b61805" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Paladino sumo robot </a> by <a href="https://sketchfab.com/matheus.nfranca97?utm_medium=embed&utm_campaign=share-popup&utm_content=58b343517470464099b1ab5970b61805" target="_blank" style="font-weight: bold; color: #1CAAD9;"> matheus.nfranca97 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=58b343517470464099b1ab5970b61805" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+<div class="sketchfab-embed-wrapper"> <iframe title="Paladino sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="600" height="350" src="https://sketchfab.com/models/58b343517470464099b1ab5970b61805/embed?autostart=1"> </iframe> </div>
 </center>
 
 ### interviews
@@ -53,7 +53,7 @@ We also participated in the 500g category of the Robocore competition. For this 
 The 3D model can be seen below.
 
 <center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Micro sumo paladin" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="720" height="400" src="https://sketchfab.com/models/c70f396029de4fc285f06e31b7400a9b/embed?autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/micro-sumo-paladin-c70f396029de4fc285f06e31b7400a9b?utm_medium=embed&utm_campaign=share-popup&utm_content=c70f396029de4fc285f06e31b7400a9b" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Micro sumo paladin </a> by <a href="https://sketchfab.com/matheus.nfranca97?utm_medium=embed&utm_campaign=share-popup&utm_content=c70f396029de4fc285f06e31b7400a9b" target="_blank" style="font-weight: bold; color: #1CAAD9;"> matheus.nfranca97 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c70f396029de4fc285f06e31b7400a9b" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+<div class="sketchfab-embed-wrapper"> <iframe title="Micro sumo paladin" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="600" height="350" src="https://sketchfab.com/models/c70f396029de4fc285f06e31b7400a9b/embed?autostart=1"> </iframe> </div>
 </center>
 
 ## Next step
@@ -63,7 +63,7 @@ To compete at a higher level, we developed a sumo concept (3Kg category). We wan
 The 3d drawing can be seen just below.
 
 <center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Flash" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="720" height="400" src="https://sketchfab.com/models/fe625d4aadae4b65a29e9180a3f47d3c/embed?autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/flash-fe625d4aadae4b65a29e9180a3f47d3c?utm_medium=embed&utm_campaign=share-popup&utm_content=fe625d4aadae4b65a29e9180a3f47d3c" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Flash </a> by <a href="https://sketchfab.com/matheus.nfranca97?utm_medium=embed&utm_campaign=share-popup&utm_content=fe625d4aadae4b65a29e9180a3f47d3c" target="_blank" style="font-weight: bold; color: #1CAAD9;"> matheus.nfranca97 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=fe625d4aadae4b65a29e9180a3f47d3c" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+<div class="sketchfab-embed-wrapper"> <iframe title="Flash" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="600" height="350" src="https://sketchfab.com/models/fe625d4aadae4b65a29e9180a3f47d3c/embed?autostart=1"> </iframe> </div>
 </center>
 
 ### Development team
