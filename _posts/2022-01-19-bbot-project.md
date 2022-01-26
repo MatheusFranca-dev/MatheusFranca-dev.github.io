@@ -1,29 +1,28 @@
 ---
 title: Bbot - Balancing Robot
-date: 2022-01-18 07:00:00 +/-TTTT
-categories: [Robotic, SBR]
+date: 2022-01-19 12:00:00 +/-TTTT
+categories: [Robotic, SBR, Senai Cimatec]
 tags: [robotic, ROS, Gazebo, control, CAD, biped]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
 image:
   src: /assets/img/bbot/bbot_wide.png
-  width:  750   # in pixels
-  height: 750   # in pixels
+  # width:  750   # in pixels
+  # height: 750   # in pixels
   alt: BBOT
 ---
 
-<!-- Style -->
-<link rel="stylesheet" href="../../assets/css/responsive_iframe.css" />
-
-### Introduction
+## Introduction
 
 Bbot or Balancing Robot, is a self-balancing autonomous robot project. Our goal is to build a mobile robot operated via ROS Noetic capable of balancing and moving on two wheels. In addition, he must be able to read a TAG (fiducial framework). The TAG will send the robot a target position to which it must navigate autonomously. To perform navigation, this robot must be able to create a map of where it is and locate itself there, allowing it to update its position throughout the mission and avoid obstacles while navigating to its objective.
 
 ![bbot](/assets/img/bbot/bbot_cad.png){: width="350" height="350" }
 _Bbot in a) extended pose b) bent pose._
 
-### LEG Architecture
+## Architecture
+
+### LEG 
 
 The project was started with the leg part. It was chosen to make a robot with leg joints to help balance the robot, varying the length of the leg to smooth over obstacles. In order to improve the robot's grip on the ground, a silicone rubber tire was designed.
 
@@ -36,7 +35,7 @@ The legs are subdivided into 3 degrees of freedom each, as follows:
 ![bbot_leg](/assets/img/bbot/pernas_explode_ok.png){: width="350" height="350" }
 _Leg components in exploded view._
 
-### BASE Architecture
+### BASE
 
 The Bbot base, on the other hand, is designed to accommodate the sensors and all of their electronics. The exploded view of the base can be seen below, and it demonstrates all the parts.
 
@@ -45,7 +44,7 @@ The shock absorbers (front and rear) were designed in case of robot failure and 
 ![bbot_base](/assets/img/bbot/base_explode_ok.png){: width="350" height="350" }
 _Base components in exploded view._
 
-### Implementation
+## Implementation
 
 Using the _Gazebo - ROS_ as a simulation tool for the environment and the robot, we were able to achieve the stability and teleoperation of **Bbot**. For this, we use the LQR controller.
 
@@ -68,13 +67,13 @@ After the implementation and study to validate the model with the simulation, we
 
 The tests presented show that the robot can stabilize itself and with stand small disturbances.
 
-### 3D model
+## 3D model
 
 A preview of the 3D model of Bbot can be seen below.
 
 <div class="container"> <iframe class="responsive-iframe" title="Bbot - Balancing Robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share  width="360" height="315" src="https://sketchfab.com/models/af1e9072e976453ca8ecdd8a06ac1db3/embed?autostart=1"> </iframe> </div>
 
-### Detailed view
+## Detailed view
 
 For more details about the project, see the project website [HERE](https://braziliansinrobotics.com/project-bbot/). We have all the steps to create this project.
 
@@ -82,7 +81,7 @@ Also see the following:
 - Project sponsor: [Senai CIMATEC](http://www.senaicimatec.com.br/en/).
 - The lab website: [Robotics & Autonomous Systems](https://braziliansinrobotics.com/).
 
-### Development team
+## Development team
 
 <center>
 <div>
@@ -115,7 +114,7 @@ Also see the following:
 
 <br>
 
-### Project Summary
+## Project Summary
 
 1. Category: <font color="#fbb117">Mobile Robotics</font>
 3. Start date: <font color="#fbb117">May/2021</font>

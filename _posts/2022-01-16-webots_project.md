@@ -8,12 +8,12 @@ mermaid: true
 pin: false
 image: 
   src: /assets/img/webots/webots-banner.png
-  width: 800   # in pixels
-  height: 800   # in pixels
+  # width: 800   # in pixels
+  # height: 800   # in pixels
   alt: Webots
 ---
 
-### Introduction
+## Introduction
 
 This project was made to carry out the simulation of the **Challenge** related to the Robotics and Autonomous Systems Laboratory to act as an undergraduate intern at SENAI CIMATEC.
 
@@ -25,7 +25,7 @@ The robot's mission will be to arrive in the region with a lamp, which is next t
     <img id="myImg" src="{{ 'assets/img/webots/webots-fast.gif' | relative_url }}" alt="Nonlinear model" width="750"/>
 </p>
 
-### The path
+## The path
 
 The path was performed in 1 minute and 11 seconds in total. The explanation can be seen below:
 
@@ -45,7 +45,7 @@ The path was performed in 1 minute and 11 seconds in total. The explanation can 
 
 All code can be found in the repository by following the [link](https://github.com/MatheusFranca-dev/desafiorobotica). 
 
-### Development team
+## Development team
 
 <center>
 <div>
@@ -74,7 +74,7 @@ All code can be found in the repository by following the [link](https://github.c
 
 <br>
 
-### Project Summary
+## Project Summary
 
 1. Category: <font color="#fbb117">Mobile Robotics</font>
 3. Start date: <font color="#fbb117">December/2020</font>
