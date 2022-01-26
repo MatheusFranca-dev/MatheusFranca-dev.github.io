@@ -13,6 +13,9 @@ image:
   alt: BBOT
 ---
 
+<!-- Style -->
+<link rel="stylesheet" href="../../assets/css/responsive_iframe.css" />
+
 ### Introduction
 
 Bbot or Balancing Robot, is a self-balancing autonomous robot project. Our goal is to build a mobile robot operated via ROS Noetic capable of balancing and moving on two wheels. In addition, he must be able to read a TAG (fiducial framework). The TAG will send the robot a target position to which it must navigate autonomously. To perform navigation, this robot must be able to create a map of where it is and locate itself there, allowing it to update its position throughout the mission and avoid obstacles while navigating to its objective.
@@ -69,9 +72,7 @@ The tests presented show that the robot can stabilize itself and with stand smal
 
 A preview of the 3D model of Bbot can be seen below.
 
-<center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Bbot - Balancing Robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share  width="360" height="315" src="https://sketchfab.com/models/af1e9072e976453ca8ecdd8a06ac1db3/embed?autostart=1"> </iframe> </div>
-</center>
+<div class="container"> <iframe class="responsive-iframe" title="Bbot - Balancing Robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share  width="360" height="315" src="https://sketchfab.com/models/af1e9072e976453ca8ecdd8a06ac1db3/embed?autostart=1"> </iframe> </div>
 
 ### Detailed view
 

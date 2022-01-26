@@ -13,6 +13,9 @@ image:
   alt: Sumo
 ---
 
+<!-- Style -->
+<link rel="stylesheet" href="../../assets/css/responsive_iframe.css" />
+
 ### Introduction
 
 The BrBots team was a robotics core, that i and more 2 friends from university founded. Our go was build robots to competition and with that, develop new skills in the robotic field. The sumo robot is one of the types of competitions that we participate. 
@@ -36,9 +39,7 @@ You could see some of the competitions we participate and our work in the [BrBot
 
 A preview of Paladin 3d model can be seen below.
 
-<center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Paladino sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="600" height="350" src="https://sketchfab.com/models/58b343517470464099b1ab5970b61805/embed?autostart=1"> </iframe> </div>
-</center>
+<div class="container"> <iframe class="responsive-iframe" title="Paladino sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/58b343517470464099b1ab5970b61805/embed?autostart=1"> </iframe> </div>
 
 ### interviews
 
@@ -52,9 +53,7 @@ We also participated in the 500g category of the Robocore competition. For this 
 
 The 3D model can be seen below.
 
-<center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Micro sumo paladin" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="600" height="350" src="https://sketchfab.com/models/c70f396029de4fc285f06e31b7400a9b/embed?autostart=1"> </iframe> </div>
-</center>
+<div class="container"> <iframe class="responsive-iframe" title="Micro sumo paladin" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c70f396029de4fc285f06e31b7400a9b/embed?autostart=1"> </iframe> </div>
 
 ## Next step
 
@@ -62,9 +61,7 @@ To compete at a higher level, we developed a sumo concept (3Kg category). We wan
 
 The 3d drawing can be seen just below.
 
-<center>
-<div class="sketchfab-embed-wrapper"> <iframe title="Flash" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="600" height="350" src="https://sketchfab.com/models/fe625d4aadae4b65a29e9180a3f47d3c/embed?autostart=1"> </iframe> </div>
-</center>
+<div class="container"> <iframe class="responsive-iframe" title="Flash" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/fe625d4aadae4b65a29e9180a3f47d3c/embed?autostart=1"> </iframe> </div>
 
 ### Development team
 
