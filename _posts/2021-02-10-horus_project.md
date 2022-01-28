@@ -19,6 +19,8 @@ Description under construction...
 
 For the proper functioning, guarantee of safety and integrity of living beings and the environment that surround them, it is essential that intelligent systems such as robots and autonomous cars, for example, are equipped with sensors of different natures. A common problem when using multiple sensors is ensuring they are all aligned and calibrated. In this project, it was proposed to test calibration methods between an RGB camera and a LiDAR using Computer Vision algorithms for the detection of a TAG (known object), taken as a calibration standard. Algorithms of 3D point clouds and RGB images were used to obtain coordinate correspondences (in both, simultaneously) in real and simulated environments.
 
+## Results
+
 ## 3D model
 
 A preview of the 3D model of the Horus configuration can be seen below (a test configuration as an example, could be $N$ configurations).
@@ -57,5 +59,6 @@ A preview of the 3D model of the Horus configuration can be seen below (a test c
 ## Project Summary
 
 1. Category: <font color="#fbb117">Computer Vision</font>
-3. Start date: <font color="#fbb117">November/2019</font>
-4. End date: <font color="#fbb117">February/2021</font>
+2. Start date: <font color="#fbb117">November/2019</font>
+3. End date: <font color="#fbb117">February/2021</font>
+4. Total articles produced: 1 (for more, see the [publications](https://matheusfranca-dev.github.io/publications/) tab)
