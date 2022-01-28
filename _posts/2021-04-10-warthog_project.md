@@ -45,9 +45,7 @@ From the images of the stereo camera, the area covered by the robot is mapped.
 
 The robot location is performed through visual odometry. 
 
-<center>
-<img id="myImg" src="{{ 'assets/img/warthog/v1-warthog-navigation-2021-04-01.gif' | relative_url }}" alt="Nonlinear model" width="500"/>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/HzJX0vbLYgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### Rtabmap
 

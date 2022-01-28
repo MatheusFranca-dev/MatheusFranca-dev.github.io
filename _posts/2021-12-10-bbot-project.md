@@ -53,17 +53,19 @@ Using the _Gazebo - ROS_ as a simulation tool for the environment and the robot,
 <iframe width="300" height="220" src="https://www.youtube.com/embed/yk-3Swis2Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+<br>
+
 Not least, we managed to make the robot autonomous, using algorithms for navigation and location.
 
-<center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/r0i4qWGY8_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/r0i4qWGY8_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
 
 After the implementation and study to validate the model with the simulation, we implemented the real robot!!
 
-<center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/Q13y1XcuO6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Q13y1XcuO6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
 
 The tests presented show that the robot can stabilize itself and with stand small disturbances.
 
@@ -71,7 +73,7 @@ The tests presented show that the robot can stabilize itself and with stand smal
 
 A preview of the 3D model of Bbot can be seen below.
 
-<div class="container"> <iframe class="responsive-iframe" title="Bbot - Balancing Robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share  width="360" height="315" src="https://sketchfab.com/models/af1e9072e976453ca8ecdd8a06ac1db3/embed?autostart=1"> </iframe> </div>
+<div class="container"> <iframe class="responsive-iframe" title="Bbot - Balancing Robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share  width="360" height="315" src="https://sketchfab.com/models/af1e9072e976453ca8ecdd8a06ac1db3/embed"> </iframe> </div>
 
 ## Detailed view
 

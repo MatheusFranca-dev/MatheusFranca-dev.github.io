@@ -17,6 +17,11 @@ Description under construction...
 
 ## Introduction
 
+## 3D model
+
+A preview of the 3D model of the robot can be seen below.
+
+<div class="container"> <iframe class="responsive-iframe" title="Beetleweight" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/a8a230d239cb4cf8a4b9e1049c93ca21/embed"> </iframe> </div>
 
 ## Development team
 

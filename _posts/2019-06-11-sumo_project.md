@@ -36,7 +36,7 @@ You could see some of the competitions we participate and our work in the [BrBot
 
 A preview of Paladin 3d model can be seen below.
 
-<div class="container"> <iframe class="responsive-iframe" title="Paladino sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/58b343517470464099b1ab5970b61805/embed?autostart=1"> </iframe> </div>
+<div class="container"> <iframe class="responsive-iframe" title="Paladino sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/58b343517470464099b1ab5970b61805/embed"> </iframe> </div>
 
 ## interviews
 
@@ -50,7 +50,7 @@ We also participated in the 500g category of the Robocore competition. For this 
 
 The 3D model can be seen below.
 
-<div class="container"> <iframe class="responsive-iframe" title="Micro sumo paladin" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c70f396029de4fc285f06e31b7400a9b/embed?autostart=1"> </iframe> </div>
+<div class="container"> <iframe class="responsive-iframe" title="Micro sumo paladin" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c70f396029de4fc285f06e31b7400a9b/embed"> </iframe> </div>
 
 ## Next step
 
@@ -58,7 +58,7 @@ To compete at a higher level, we developed a sumo concept (3Kg category). We wan
 
 The 3d drawing can be seen just below.
 
-<div class="container"> <iframe class="responsive-iframe" title="Flash" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/fe625d4aadae4b65a29e9180a3f47d3c/embed?autostart=1"> </iframe> </div>
+<div class="container"> <iframe class="responsive-iframe" title="Flash" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/fe625d4aadae4b65a29e9180a3f47d3c/embed"> </iframe> </div>
 
 ## Development team
 

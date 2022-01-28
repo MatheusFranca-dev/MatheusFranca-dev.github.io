@@ -50,7 +50,7 @@ The bench can be easily modified to couple other actuator models, just copy the 
 
 A preview of the Test Bench 3D model can be seen below.
 
-<div class="container"> <iframe class="responsive-iframe" title="Test Bench" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/5a05062f95ea4d2cb1fdbb6d71deb2ee/embed?autostart=1"> </iframe> </div>
+<div class="container"> <iframe class="responsive-iframe" title="Test Bench" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/5a05062f95ea4d2cb1fdbb6d71deb2ee/embed"> </iframe> </div>
 
 ### Real model
 

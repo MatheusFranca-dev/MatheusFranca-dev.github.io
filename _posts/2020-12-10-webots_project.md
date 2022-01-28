@@ -21,9 +21,7 @@ The challenge was to develop an autonomous system that presents abilities to rec
 
 The robot's mission will be to arrive in the region with a lamp, which is next to a STOP sign. The region starts right after the sign towards the lamp. The robot must always start near the START board.
 
-<p align="center">
-    <img id="myImg" src="{{ 'assets/img/webots/webots-fast.gif' | relative_url }}" alt="Nonlinear model" width="750"/>
-</p>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/E5G_2fqRhCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## The path
 

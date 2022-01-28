@@ -35,7 +35,7 @@ It is possible to notice that the connections between the components are divided
 
 A preview of the Hephaestus model can be seen below.
 
-<div class="container"> <iframe class="responsive-iframe" title="Hephaestus" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f0c0c4a783194cedb17844991a279fcc/embed?autostart=1"> </iframe> </div>
+<div class="container"> <iframe class="responsive-iframe" title="Hephaestus" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f0c0c4a783194cedb17844991a279fcc/embed"> </iframe> </div>
 
 ## Detailed view
 

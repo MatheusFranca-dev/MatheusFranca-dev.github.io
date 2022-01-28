@@ -17,6 +17,11 @@ Description under construction...
 
 ## Introduction
 
+## 3D model
+
+A preview of the 3D model of one of the learning robots we built can be seen below.
+
+<div class="container"> <iframe class="responsive-iframe" title="3d printable sumo robot" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/89b467b9a3d947cda15ce01bff44216d/embed"> </iframe> </div>
 
 ## Development team
 
