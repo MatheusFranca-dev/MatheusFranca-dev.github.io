@@ -15,7 +15,7 @@ image:
 
 ## Introduction
 
-The BrBots team was a robotics core, that i and more 2 friends from university founded. Our go was build robots to competition and with that, develop new skills in the robotic field. The sumo robot is one of the types of competitions that we participate. 
+The BrBots team was a robotics core, that I and more 2 friends from university founded. Our go was build robots to competition and with that, develop new skills in the robotic field. The sumo robot is one of the types of competitions that we participate. 
 
 ![brbots](/assets/img/sumo/brbots.jpg){: w="300" h="300" }
 
