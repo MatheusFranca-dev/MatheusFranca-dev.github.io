@@ -6,25 +6,6 @@ order: 4
 
 ![About](/assets/img/matheus_franca.jpeg){: width="400" height="400" }
 
-**Matheus Henrique Nunes França**, born in Brazil (Salvador - BA) in 1997, is a researcher in the field of Robotics, Computer Vision and Artificial Intelligence, working mainly on the following topics:
+**Matheus Henrique Nunes França**, born in Brazil (Salvador - BA) in 1997, is a researcher and specialist in robotics, computer vision and artificial intelligence. He currently works at Senai Cimatec, where he collaborates in robotics projects with the Brazilian Institute of Robotics (BIR). His research interests include humanoid robots, self-balancing robots, robots for inspection of transmission lines, modeling, 3D printing, sensor calibration, autonomy and reliability. He has knowledge in ROS, ROS2, C++, Python, R, AI, statistical analysis and  behavior trees. He holds a degree in control and automation engineering from Area 1.
 
-- Humanoid robots;
-- Self-balancing robots;
-- Robots for inspection of transmission lines;
-- Modeling;
-- 3D printing;
-- Robotics;
-- Sensor calibration.
-
-Knowledge in the following areas:
-
-- ROS;
-- C++;
-- Python;
-- R;
-- Statistical analysis of results;
-- Microcontrollers.
-
-Matheus França is graduated in control and automation engineering from Area 1. He currently works as an intern researcher at Senai Cimatec, collaborating in robotics projects in the group of the Brazilian Institute of Robotics (BIR) in partnership with the German Institute of Artificial Intelligence (DFKI). His research interest focuses on autonomy and applied reliability in robots.
-
-<!-- > **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page. -->
+Matheus is also pursuing a Master’s degree in Mechatronics at the Federal University of Bahia (UFBA), where he is conducting research on autonomous multi-robot systems. He has been involved in several projects related to robotics, including humanoid robots, self-balancing robots,remotely operated underwater vehicles and unmanned ground vehicle.

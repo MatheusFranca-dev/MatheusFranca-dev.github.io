@@ -83,6 +83,11 @@
       <a href="{{ url }}" aria-label="{{ entry.type }}"
         {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
         <i class="{{ entry.icon }}"></i>
+        {%- if entry.type == 'cv-pt' -%}
+          Pt
+        {%- elsif entry.type == 'cv-en' -%}
+          En
+        {%- endif -%}
       </a>
       {% endif %}
 
