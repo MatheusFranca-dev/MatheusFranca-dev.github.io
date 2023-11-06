@@ -13,8 +13,6 @@ image:
   alt: Learning Bot
 ---
 
-## Introduction
-
 As part of learning with the BrBots team and with the knowledge acquired with robotics, there are some opportunities to pass our knowledge on to high school students, in addition to motivating them to follow this area. There were also opportunities to participate as a judge in the Brazilian Robotics Olympics.
 
 ## Brazilian robotics olympics (from Portuguese: Olímpiada Brasileira de Robótica, OBR)

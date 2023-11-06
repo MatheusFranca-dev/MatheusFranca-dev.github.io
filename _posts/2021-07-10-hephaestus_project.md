@@ -13,8 +13,6 @@ image:
   alt: Hephaestus
 ---
 
-## Introduction
-
 Hephaestus features a 22 Degrees of Freedom (DOF) articulated design. Its structure is based on Robotis models [OP3](https://emanual.robotis.com/docs/en/platform/op3/getting_started/) and [OP2](https://emanual.robotis.com/docs/en/platform/op2/getting_started/). In addition, Hephaestus is developed under [ROS](https://www.ros.org/) (Robot Operating System) to use various packages in the ROS ecosystem. All the technology involved and support for ROS, allow developers to focus more on advancing research and techniques in the field of robotics and computer vision.
 
 The project was part of a research on anthropomorphic robot at the institution **Senai Cimatec**.

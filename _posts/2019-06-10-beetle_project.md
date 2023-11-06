@@ -13,8 +13,6 @@ image:
   alt: Battle robot
 ---
 
-## Introduction
-
 Since 2005, robot combat events have been organized in Brazil with several other categories such as [Sumo](https://matheusfranca-dev.github.io/posts/sumo_project/), [Line Follower](https://matheusfranca-dev.github.io/posts/line_project/), [Lego Sumo](https://matheusfranca-dev.github.io/posts/lego_project/), among others.
 
 The purpose of these competitions is to encourage people to develop new technologies, in addition to providing a spectacle for the entire public to watch and vibrate with the battles.

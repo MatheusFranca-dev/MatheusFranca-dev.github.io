@@ -13,8 +13,6 @@ image:
   alt: Lego Bot
 ---
 
-## Introduction
-
 Like the regular sumo category, lego sumo is a very challenging competition. The idea is to take a lego kit and build the whole robot with its parts.
 
 As we were very excited about the vast types of robot competitions, we saw a possibility to expand our knowledge in robotics. For this we tried the lego sumo robot category.

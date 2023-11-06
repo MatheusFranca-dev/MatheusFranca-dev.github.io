@@ -13,8 +13,6 @@ image:
   alt: Warthog
 ---
 
-## Introduction
-
 The idea of this project is to develop mobile robot techniques and autonomous navigation. For that, a mobile platform called Warthog was used, a robot manufactured by the company [Clearpath Robotics](https://clearpathrobotics.com/warthog-unmanned-ground-vehicle-robot/).
 
 ### Purpose of the Project

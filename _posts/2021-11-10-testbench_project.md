@@ -13,8 +13,6 @@ image:
   alt: BBOT
 ---
 
-## Introduction
-
 System identification is a generic term used to describe the mathematical tools and algorithms that allow building dynamic models from measured data. We can identify a system through equations of physics (called white box), we can identify systems without knowing the previous model (black box model) and we still have a method that is a middle ground between the white box and the black box, called gray box.
 
 The Test Bench project was a project related to the [Bbot robot](https://matheusfranca-dev.github.io/posts/bbot-project/) and aims to identify the model of the actuators that will be used in it. We will use the black box identification model.

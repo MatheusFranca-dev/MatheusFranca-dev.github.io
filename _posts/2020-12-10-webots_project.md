@@ -13,8 +13,6 @@ image:
   alt: Webots
 ---
 
-## Introduction
-
 This project was made to carry out the simulation of the **Challenge** related to the Robotics and Autonomous Systems Laboratory to act as an undergraduate intern at SENAI CIMATEC.
 
 The challenge was to develop an autonomous system that presents abilities to recognize the environment through sensors, providing an adequate autonomous navigation. For this we use the _WeBots_ simulator, an open-source platform to develop robots!!

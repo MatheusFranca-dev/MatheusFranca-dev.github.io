@@ -13,8 +13,6 @@ image:
   alt: DRoILT
 ---
 
-## Introduction
-
 Many studies have been carried out with the aim of developing autonomous robots to travel along power transmission lines (PTL) to carry out inspection and repair. DRoILT is an autonomous mobile robot that moves on electrical power lines and can overcome different types of obstacles.
 
 ## Overview

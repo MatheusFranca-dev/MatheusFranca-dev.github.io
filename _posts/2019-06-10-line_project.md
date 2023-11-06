@@ -13,8 +13,6 @@ image:
   alt: Line Follower
 ---
 
-## Introduction
-
 Line follower robots are usually one of the first things the novice robot builder wants to try out. Line followers typically detect a contrasting line laid out on the floor or a table and try to run along that line as closely as possible. These types of robots have very real applications in factory automation and other industrial settings. Lessons learned from building line followers form a valuable foundation for more advanced robotics topics, making these projects ideal for beginners.
 
 My team (BrBots) decided to create a robot in this category and participate in the Robocore competition. This gives us a deeper understanding of robotics.

@@ -13,8 +13,6 @@ image:
   alt: BBOT
 ---
 
-## Introduction
-
 Bbot or Balancing Robot, is a self-balancing autonomous robot project. Our goal is to build a mobile robot operated via ROS Noetic capable of balancing and moving on two wheels. In addition, he must be able to read a TAG (fiducial framework). The TAG will send the robot a target position to which it must navigate autonomously. To perform navigation, this robot must be able to create a map of where it is and locate itself there, allowing it to update its position throughout the mission and avoid obstacles while navigating to its objective.
 
 ![bbot](/assets/img/bbot/bbot_cad.png){: width="350" height="350" }
@@ -22,7 +20,7 @@ _Bbot in a) extended pose b) bent pose._
 
 ## Architecture
 
-### LEG 
+### LEG
 
 The project was started with the leg part. It was chosen to make a robot with leg joints to help balance the robot, varying the length of the leg to smooth over obstacles. In order to improve the robot's grip on the ground, a silicone rubber tire was designed.
 
@@ -120,5 +118,6 @@ Also see the following:
 ## Project Summary
 
 1. Category: <font color="#fbb117">Mobile Robotics</font>
-3. Start date: <font color="#fbb117">May/2021</font>
-4. End date: <font color="#fbb117">December/2021</font>
+2. Start date: <font color="#fbb117">May/2021</font>
+3. End date: <font color="#fbb117">December/2021</font>
+4. Total articles produced: 1 (for more, see the [publications](https://matheusfranca-dev.github.io/publications/) tab)
