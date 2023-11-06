@@ -82,6 +82,7 @@ For more details about the project, see the project website [HERE](https://brazi
 Also see the following:
 - Project sponsor: [Senai CIMATEC](http://www.senaicimatec.com.br/en/).
 - The lab website: [Robotics & Autonomous Systems](https://braziliansinrobotics.com/).
+- GitHub: [Real Bbot](https://github.com/Brazilian-Institute-of-Robotics/bir_bbot) and [Simulated Bbot](https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-simulation).
 
 ## Development team
 

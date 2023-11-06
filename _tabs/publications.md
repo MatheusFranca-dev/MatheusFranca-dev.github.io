@@ -13,11 +13,26 @@ order: 3
   <button class="btn" onclick="filterSelection('adam')"> Adam</button>
   <button class="btn" onclick="filterSelection('horus')"> Horus</button>
   <button class="btn" onclick="filterSelection('subot')"> SUBOT</button>
-  <button class="btn" onclick="filterSelection('master')"> Master</button>
+  <button class="btn" onclick="filterSelection('bbot')"> Bbot</button>
+  <button class="btn" onclick="filterSelection('multi-robot')"> Multi-robot</button>
 </div>
 
 <!-- Publications -->
-<div class="filterDiv master" onclick="window.location='https://doity.com.br/certificados_artigos/imprimir_certificado_artigo/d15424abebcc17d790cacff9bdbe3a236b07293f';">
+<div class="filterDiv subot" onclick="window.location='';">
+    <h2 class="category">{{"AUTONOMOUS ROBOTIC SYSTEM FOR VISUAL INSPECTION IN ELECTRICAL SUBSTATIONS AND CABLE GALLERIES"}}</h2>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <p> Matheus Henrique Nunes França, Rebeca Lima, Oberdan Pinheiro, Marcel Cerbantes, Herman Lepikson <br>
+        &bull; 20th IEEE Latin American Robotics Symposium - LARS and 15th Brazilian Symposium on Robotics - SBR &emsp;&bull; Year: 2023 </p>
+</div>
+
+<div class="filterDiv bbot" onclick="window.location='';">
+    <h2 class="category">{{"DESIGN, MANUFACTURING AND TESTING OF A TWO-WHEELED SELF-BALANCING ROBOT"}}</h2>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <p> Matheus Henrique Nunes França and Lucas Lins Souza <br>
+        &bull; IX International Symposium on Innovation and Technology (SIINTEC) &emsp;&bull; Year: 2023 </p>
+</div>
+
+<div class="filterDiv multi-robot" onclick="window.location='https://doity.com.br/certificados_artigos/imprimir_certificado_artigo/d15424abebcc17d790cacff9bdbe3a236b07293f';">
     <h2 class="category">{{"HETEROGENEOUS MULTI-ROBOT SYSTEM FOR MANIPULATION AND INSPECTION OF INTERESTING OBJECTS IN CIVIL CONSTRUCTION"}}</h2>
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
     <p> Matheus Henrique Nunes França and Herman Augusto Lepikson <br>
