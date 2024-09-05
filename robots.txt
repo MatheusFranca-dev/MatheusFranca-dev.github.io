@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://matheusfranca-dev.github.io/sitemap.xml
