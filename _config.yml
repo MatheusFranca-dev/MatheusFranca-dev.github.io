@@ -20,7 +20,8 @@ timezone: Asia/Shanghai
 
 title: Matheus França                  # the main title
 
-tagline: Researcher in Robotics, Computer Vision and Artificial Intelligence   # it will display as the sub-title
+tagline: MSc | Researcher in Robotics, Computer Vision, Control and Artificial Intelligence   # it will display as the sub-title
+
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
