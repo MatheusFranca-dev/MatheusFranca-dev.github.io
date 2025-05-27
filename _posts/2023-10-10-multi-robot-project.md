@@ -1,8 +1,8 @@
 ---
 title: Multi-Robot System
 date: 2023-10-10 12:00:00 +/-TTTT
-categories: [Robotic, UFBA]
-tags: [robotic, ROS2, multi-robot, object manipulation, heterogeneous robots, simulator, computer vision, additive manufacturing, civil constructio, Pygame, Unity] # TAG names should always be lowercase
+# categories: [Robotic, UFBA]
+# tags: [robotic, ROS2, multi-robot, object manipulation, heterogeneous robots, simulator, computer vision, additive manufacturing, civil constructio, Pygame, Unity] # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

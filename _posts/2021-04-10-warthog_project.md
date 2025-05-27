@@ -1,8 +1,8 @@
 ---
 title: Warthog 
 date: 2021-04-10 10:00:00 +/-TTTT
-categories: [Robotic, Vision, Personal]
-tags: [robotic, ROS, SLAM, computer vision]     # TAG names should always be lowercase
+# categories: [Robotic, Vision, Personal]
+# tags: [robotic, ROS, SLAM, computer vision]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

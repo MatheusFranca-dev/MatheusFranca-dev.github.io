@@ -1,8 +1,8 @@
 ---
 title: Bbot - Balancing Robot
 date: 2021-12-10 12:00:00 +/-TTTT
-categories: [Robotic, SBR, Senai Cimatec]
-tags: [robotic, ROS, Gazebo, control, CAD, biped]     # TAG names should always be lowercase
+# categories: [Robotic, SBR, Senai Cimatec]
+# tags: [robotic, ROS, Gazebo, control, CAD, biped]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

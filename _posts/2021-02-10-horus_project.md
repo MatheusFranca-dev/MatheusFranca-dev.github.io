@@ -1,8 +1,8 @@
 ---
 title: Horus
 date: 2021-02-10 07:00:00 +/-TTTT
-categories: [Vision, Senai Cimatec]
-tags: [robotic, computer vision]     # TAG names should always be lowercase
+# categories: [Vision, Senai Cimatec]
+# tags: [robotic, computer vision]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

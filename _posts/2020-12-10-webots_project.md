@@ -1,8 +1,8 @@
 ---
 title: Webots
 date: 2020-12-10 07:00:00 +/-TTTT
-categories: [Robotic, Senai Cimatec]
-tags: [mobile robotic, robotic]     # TAG names should always be lowercase
+# categories: [Robotic, Senai Cimatec]
+# tags: [mobile robotic, robotic]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

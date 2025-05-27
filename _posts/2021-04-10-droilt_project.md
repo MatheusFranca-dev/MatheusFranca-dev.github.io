@@ -1,8 +1,8 @@
 ---
 title: DRoILT
 date: 2021-04-10 7:00:00 +/-TTTT
-categories: [Robotic, Vision, Senai Cimatec]
-tags: [robotic, ROS, computer vision, PTL]     # TAG names should always be lowercase
+# categories: [Robotic, Vision, Senai Cimatec]
+# tags: [robotic, ROS, computer vision, PTL]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

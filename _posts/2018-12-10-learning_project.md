@@ -1,8 +1,8 @@
 ---
 title: Learning Bot
 date: 2018-12-10 9:00:00 +/-TTTT
-categories: [Robotic, BrBots]
-tags: [mobile robotic, robotic, CAD]     # TAG names should always be lowercase
+# categories: [Robotic, BrBots]
+# tags: [mobile robotic, robotic, CAD]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

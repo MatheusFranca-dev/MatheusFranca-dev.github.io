@@ -1,8 +1,8 @@
 ---
 title: Test Bench
 date: 2021-11-10 12:00:00 +/-TTTT
-categories: [Robotic, Senai Cimatec]
-tags: [robotic, ROS, identification, control, CAD, black-box]     # TAG names should always be lowercase
+# categories: [Robotic, Senai Cimatec]
+# tags: [robotic, ROS, identification, control, CAD, black-box]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
