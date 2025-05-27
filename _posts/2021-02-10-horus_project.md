@@ -6,6 +6,7 @@ tags: [robotic, computer vision]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/horus/horus-tb.png
 image: 
   src: /assets/img/horus/horus-cover.jpeg
   # width: 800   # in pixels

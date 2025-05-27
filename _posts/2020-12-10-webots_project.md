@@ -6,6 +6,7 @@ tags: [mobile robotic, robotic]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/webots/webots-tb.png
 image: 
   src: /assets/img/webots/webots-banner.png
   # width: 800   # in pixels

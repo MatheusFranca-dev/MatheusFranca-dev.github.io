@@ -6,6 +6,7 @@ tags: [mobile robotic, robotic, CAD]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/sumo/sumo-tb.png
 image: 
   src: /assets/img/sumo/brbots-banner.jpg
   # width: 800   # in pixels

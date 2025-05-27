@@ -6,6 +6,7 @@ tags: [robotic, ROS, SLAM, computer vision]     # TAG names should always be low
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/warthog/warthog.png
 image:
   src: /assets/img/warthog/WarthogGallery.jpg
   # width:  750   # in pixels

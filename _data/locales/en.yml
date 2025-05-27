@@ -10,10 +10,11 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Home
+  home: Projects
+  articles: Articles
   categories: Categories
   tags: Tags
-  archives: Projects
+  archives: Archives
   education: Education
   about: About
 
@@ -53,9 +54,8 @@ meta: Powered by :PLATFORM with :THEME theme.
 
 not_found:
   statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-  hint_template: :HEAD_BAK to try finding it again, or search for it on the :ARCHIVES_PAGE.
+  hint_template: :HEAD_BAK to try finding it again.
   head_back: Head back Home
-  archives_page: Archives page
 
 # ----- Posts related labels -----
 

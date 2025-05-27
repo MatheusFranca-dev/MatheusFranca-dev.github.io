@@ -6,6 +6,7 @@ tags: [robotic, ROS, identification, control, CAD, black-box]     # TAG names sh
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/testbench/testbench.png
 image:
   src: /assets/img/testbench/sistemas_wide.png
   # width:  750   # in pixels

@@ -6,6 +6,7 @@ tags: [robotic, ROS, computer vision, PTL]     # TAG names should always be lowe
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/droilt/droilt-tb.png
 image:
   src: /assets/img/droilt/droilt.png
   # width:  750   # in pixels

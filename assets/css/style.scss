@@ -32,3 +32,110 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   width: 100%;
   height: 100%;
 }
+
+// Card styling
+.post-preview {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--topbar-wrapper-bg);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-preview:hover {
+  background-color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+// Remove default link underline/focus highlight
+.post-preview a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Overlay link covers the entire card
+.post-link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+// Ensure text/content is above the overlay link
+.post-preview-content,
+.post-preview-thumb {
+  position: relative;
+  z-index: 2;
+}
+
+// Left content block
+.post-preview-content {
+  text-align: justify;
+  flex: 1 1 auto;
+  margin-right: 1rem;
+}
+
+// Thumbnail block
+.post-preview-thumb {
+  flex: 0 0 auto;
+}
+.post-preview-thumb img {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+// Responsive: Thumbnail centered, text left-aligned
+@media (max-width: 768px) {
+  .post-preview-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-preview-content {
+    width: 100%;
+    text-align: left;
+  }
+
+  .post-preview-thumb {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+}
+
+// Clickable area
+.post-link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.post-preview-inner {
+  position: relative;
+  z-index: 5;
+}
+
+.post-preview,
+.post-preview a,
+.post-link-overlay {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.post-preview:hover,
+.post-preview-inner:hover {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}

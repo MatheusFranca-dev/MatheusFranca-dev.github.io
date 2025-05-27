@@ -6,6 +6,7 @@ tags: [robotic, ROS2, multi-robot, object manipulation, heterogeneous robots, si
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/multi-robot/marl.png
 image:
   src: /assets/img/multi-robot/wide-multi-robot.jpeg
   alt: MULTI-ROBOT
@@ -19,14 +20,55 @@ The research aims to develop a simulated environment to explore and analyze comp
 
 The proposed multi-robot system for construction consists of four types of robots, each with specific functions (as shown in the figure below). The blue robot (R1) is responsible for additive manufacturing of structural components using 3D printing technology. The green robot (R2) specializes in delicate object manipulation, such as tube insertion and placement of power boxes. The yellow robot (R3) inspects the printed walls to identify possible flaws and unsafe points in the work environment. Additionally, it acts as an inspector for the restart of the printing process, providing spatial coordinates where the R1 robot should begin or resume printing the structure. Drones (R4, in pink) are employed for 3D terrain scanning and mapping, enabling precise construction planning and ensuring that the additive manufacturing robot (R1) stays within designated boundaries. The purple robot (R5) creates a support surface, including beam fixation, to facilitate proper material deposition by R1. The system can also incorporate other robots (Rn, in gray) to add specific capabilities to the environment, such as object manipulation.
 
-![robots](/assets/img/multi-robot/mission.png){: .dark .shadow .rounded-10 w='700' h='700' }
+![robots](/assets/img/multi-robot/mission.png){: .dark .shadow .rounded-10 w='400' h='400' }
 _Operating environment and robot tasks._
 
 Effective communication and coordination among the robots are crucial for their successful operation. This includes exchanging mission status information, historical data, and mission details, requiring high data transmission bandwidth. Both synchronous and asynchronous coordination approaches are employed, ensuring efficient completion of complex tasks in the construction environment while prioritizing process efficiency and safety.
 
+![robots](/assets/img/multi-robot/final-ray-view.png){: .dark .shadow .rounded-10 w='400' h='400' }
+_Isometric view with ray sensor._
+
 To achieve the desired set of tasks, three main blocks have been defined: (1) simulation, which defines the environment using Unity for 3D implementation and Pygame for 2D implementation; (2) application, responsible for robot control, sensing, and communication; and (3) intelligence, incorporating artificial intelligence systems to be integrated with the robots.
 
-By combining collaborative multi-robot systems with additive manufacturing, this research addresses the challenges faced by the construction industry in adopting automation technologies. The study's findings will contribute to advancements in construction automation, leading to improved efficiency and productivity in the sector. This project is part of my master's degree in Mechatronics Engineering at the Federal University of Bahia, the thesis is entitled "HETEROGENEOUS MULTI-ROBOT SYSTEM FOR HANDLING AND INSPECTION OF OBJECTS IN THE CONSTRUCTION INDUSTRY" and is currently in progress.
+![robots](/assets/img/multi-robot/r2-rm-obstacle-view.png){: .dark .shadow .rounded-10 w='400' h='400' }
+_Robots in Unity Simulator._
+
+![robots](/assets/img/multi-robot/n-envs-rand-pos.png){: .dark .shadow .rounded-10 w='400' h='400' }
+_Reinforcement Learning in Unity._
+
+## Experiments
+
+Below are three experiments: the first focuses on the use of two robots, the second involves multiple manipulation robots working together with a printing robot, and finally, an experiment using a printing robot and another for material support in hard-to-reach locations.
+
+For a detailed view of the experiments, including videos and results, see the [publications](https://matheusfranca-dev.github.io/publications/) section of this site.
+
+### Two-Robot Collaboration Experiment
+
+Conducted using one robot dedicated to object manipulation and another responsible for printing ceramic construction blocks.
+
+<center>
+<iframe width="360" height="315" src="https://www.youtube.com/embed/kZLIPbeN0SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+### Multi-Robot Manipulation and Printing Integration Experiment
+
+In this experiment, the robots were previously trained and are fully integrated with ROS 2 and Behavior Tree CPP. In the environment, the yellow robots (R3) are responsible for identifying possible obstacles (represented by red cubes) and dragging them to a disposal area. The obstacles are categorized as small, which can be handled by a single robot; medium, which require the cooperation of two or more robots; and large, which require the collaboration of three or more robots. This behavior is essential to assist the blue robot (R1) in printing ceramic blocks in the environment, ensuring that no obstacle hinders its progress.
+
+<center>
+<iframe width="360" height="315" src="https://www.youtube.com/embed/1wFDXl8tHWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+### Multi-Robot Collaboration Experiment in Complex Structure Printing
+
+In this experiment, the blue robot (R1) starts the process of printing sections to simulate the construction of a door. To print in a challenging area, specifically between both sides of the door, R1 requires support. At this point, the purple robot (R4) is called by R1. This request occurs after R1 prints the left and right supports of the door. R4 then navigates to position itself in the middle of the door. This strategic position allows R1 to successfully complete the printing of the door frame.
+
+<center>
+<iframe width="360" height="315" src="https://www.youtube.com/embed/DOPk4aFZuio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+## Conclusion
+
+By combining collaborative multi-robot systems with additive manufacturing, this research addresses the challenges faced by the construction industry in adopting automation technologies. The study's findings will contribute to advancements in construction automation, leading to improved efficiency and productivity in the sector. This project was part of my master's degree in Mechatronics Engineering at the Federal University of Bahia, and the thesis is entitled "Collaboration of Heterogeneous Robots in a Civil Construction Environment: A Modular and Integrative Proposal (<i>In Portuguese</i>)".
 
 ## Development team
 
@@ -62,4 +104,4 @@ By combining collaborative multi-robot systems with additive manufacturing, this
 1. Category: <font color="#fbb117">Multi-Robot System</font>
 2. Start date: <font color="#fbb117">May/2022</font>
 3. Expected end date: <font color="#fbb117">July/2024</font>
-4. Total articles produced: 1 (for more, see the [publications](https://matheusfranca-dev.github.io/publications/) tab)
+4. Two articles produced and my Master's Thesis (for more, see the [publications](https://matheusfranca-dev.github.io/publications/) tab)

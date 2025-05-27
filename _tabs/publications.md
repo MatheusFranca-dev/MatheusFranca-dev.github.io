@@ -1,7 +1,7 @@
 ---
 title: Publications
 icon: fas fa-file
-order: 3
+order: 5
 ---
 
 <!-- Style -->
@@ -18,8 +18,15 @@ order: 3
 </div>
 
 <!-- Publications -->
-<div class="filterDiv multi-robot" onclick="window.location='';">
-    <h2 class="category">{{"Towards Efficient Heterogeneous Multi-Robot Collaboration inDynamic Unity-Based Civil Construction Simulations (<i>Under Review</i>)"}}</h2>
+<div class="filterDiv multi-robot" onclick="window.location='https://repositorio.ufba.br/handle/ri/40716';">
+    <h2 class="category">{{"Collaboration of Heterogeneous Robots in a Civil Construction Environment: A Modular and Integrative Proposal (<i>In Portuguese</i>)"}}</h2>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <p> França, Matheus and Lepikson, Herman <br>
+        &bull; Thesis | UFBA University Library System &emsp;&bull; Year: 2024 </p>
+</div>
+
+<div class="filterDiv multi-robot" onclick="window.location='https://www.sistema.abcm.org.br/articleFiles/download/45341';">
+    <h2 class="category">{{"Towards Efficient Heterogeneous Multi-Robot Collaboration inDynamic Unity-Based Civil Construction Simulations"}}</h2>
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
     <p> França, Matheus and Lepikson, Herman <br>
         &bull; XII National Congress of Mechanical Engineering (CONEM) &emsp;&bull; Year: 2024 </p>

@@ -1,0 +1,96 @@
+---
+layout: page
+# The Articles page layout
+---
+
+{% include lang.html %}
+
+{% assign pinned = site.posts | where: "pin", "true" %}
+{% assign default = site.articles | where_exp: "item", "item.pin != true" %}
+
+{% assign articles = site.articles | sort: 'date' | reverse %}
+
+<!-- Get pinned articles -->
+
+{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+{% assign pinned_num = pinned.size | minus: offset %}
+
+{% if pinned_num > 0 %}
+  {% for i in (offset..pinned.size) limit: pinned_num %}
+    {% assign articles = articles | push: pinned[i] %}
+  {% endfor %}
+{% else %}
+  {% assign pinned_num = 0 %}
+{% endif %}
+
+<!-- Get default articles -->
+
+{% assign default_beg = offset | minus: pinned.size %}
+
+{% if default_beg < 0 %}
+  {% assign default_beg = 0 %}
+{% endif %}
+
+{% assign default_num = paginator.articles | size | minus: pinned_num  %}
+{% assign default_end = default_beg | plus: default_num | minus: 1 %}
+
+{% if default_num > 0 %}
+  {% for i in (default_beg..default_end) %}
+    {% assign articles = articles | push: default[i] %}
+  {% endfor %}
+{% endif %}
+
+<div id="post-list">
+  {% for article in articles %}
+  <article class="post-preview d-flex align-items-start position-relative">
+    <!-- Overlay link covers entire card -->
+    <a
+      href="{{ article.url | relative_url }}"
+      class="post-link-overlay"
+      aria-label="Read more: {{ article.title }}"
+    ></a>
+
+    <!-- Left: Text & Meta -->
+    <div class="post-preview-inner d-flex flex-column flex-md-row align-items-center">
+      <div class="post-preview-content">
+        <h1 class="post-title"><a href="{{ article.url | relative_url }}">{{ article.title }}</a></h1>
+        <div class="post-content">
+          <p>
+            {% include no-linenos.html content=article.content %}
+            {{ article.content | markdownify | strip_html | truncate: 200 | escape }}
+          </p>
+        </div>
+        <div class="post-meta text-muted d-flex">
+          <div class="mr-auto">
+            <i class="far fa-calendar fa-fw"></i>
+            {% include timeago.html date=article.date tooltip=true %}
+            <i class="far fa-clock fa-fw"></i>
+            {% include read-time.html content=article.content %}
+            {% if article.categories.size > 0 %}
+              <i class="far fa-folder-open fa-fw"></i>
+              <span>{% for category in article.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+            {% endif %}
+          </div>
+          {% if article.pin %}
+          <div class="pin">
+            <i class="fas fa-thumbtack fa-fw"></i>
+            <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- Right: Thumbnail -->
+      {% if article.thumbnail %}
+      <div class="post-preview-thumb mt-3 mt-md-0 ml-md-3">
+        <img src="{{ article.thumbnail | relative_url }}" alt="{{ article.title }} thumbnail" loading="lazy">
+      </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 0 %}
+  {% include post-paginator.html %}
+{% endif %}

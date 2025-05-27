@@ -114,6 +114,9 @@ kramdown:
       start_line: 1
 
 collections:
+  articles:
+    output: true
+    sort_by: order
   tabs:
     output: true
     sort_by: order
@@ -135,6 +138,17 @@ defaults:
       path: _drafts
     values:
       comments: false
+  -
+    scope:
+      path: ''          # An empty string here means all files in the project
+      type: articles
+    values:
+      layout: post
+      comments: true    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /articles/:title/
   -
     scope:
       path: ''

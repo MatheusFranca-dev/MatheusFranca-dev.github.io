@@ -6,10 +6,9 @@ tags: [robotic, ROS, Gazebo, control, CAD, biped]     # TAG names should always 
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/bbot/bbot.png
 image:
   src: /assets/img/bbot/bbot_wide.png
-  # width:  750   # in pixels
-  # height: 750   # in pixels
   alt: BBOT
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Professional
 icon: fas fa-user-tie
-order: 3
+order: 4
 ---
 
 <h2 class="category">{{"Senai Cimatec"}}</h2>

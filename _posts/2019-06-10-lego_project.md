@@ -6,6 +6,7 @@ tags: [mobile robotic, robotic, CAD]     # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
+thumbnail: /assets/img/lego/lego-tb.png
 image:
   src: /assets/img/lego/brbots-banner.jpg
   # width:  750   # in pixels
