@@ -1,8 +1,6 @@
 ---
 title: Bbot - Mathematical model
 date: 2021-09-22 12:00:00 +/-TTTT
-categories: [Robotic, SBR, Senai Cimatec]
-tags: [bbot] # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false

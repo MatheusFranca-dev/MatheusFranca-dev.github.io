@@ -1,8 +1,6 @@
 ---
 title: Test Bench - System Identification
 date: 2021-11-26 12:00:00 +/-TTTT
-categories: [Robotic, Senai Cimatec]
-tags: [robotic, ROS, identification, control, CAD, black-box] # TAG names should always be lowercase
 math: true
 mermaid: true
 pin: false
