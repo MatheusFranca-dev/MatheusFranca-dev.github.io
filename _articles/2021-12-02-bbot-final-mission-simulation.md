@@ -64,9 +64,7 @@ _Navigation._
 
 Unlike the image shown in the `gmapping` section, in these, the obstacles have a colored envelope. This is a region created by the ROS package `costmap2d`, which `move_base_flex` uses to enlarge the size of obstacles so that the trajectory controller tries to avoid these regions.
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r0i4qWGY8_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/r0i4qWGY8_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Although we talked a bit about the improvements we intend to implement in the real Bbot model in the last post, so it can accomplish its final mission, we didn't talk much about the mission itself. I hope this post has clarified more about our plans for this robot and the path we intend to follow. Bbot is a work in progress, and we will post updates as soon as we have more news.
 

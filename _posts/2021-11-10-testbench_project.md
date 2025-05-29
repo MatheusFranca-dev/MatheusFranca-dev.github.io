@@ -128,3 +128,7 @@ Also see the following:
 1. Category: <font color="#fbb117">Mobile Robotics</font>
 3. Start date: <font color="#fbb117">August/2021</font>
 4. End date: <font color="#fbb117">November/2021</font>
+
+## Project Posts
+
+1. [System Identification](https://matheusfranca-dev.github.io/articles/bbot-strength-test-bench/)

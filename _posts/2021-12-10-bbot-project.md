@@ -46,8 +46,9 @@ _Base components in exploded view._
 Using the _Gazebo - ROS_ as a simulation tool for the environment and the robot, we were able to achieve the stability and teleoperation of **Bbot**. For this, we use the LQR controller.
 
 <center>
-<iframe width="300" height="220" src="https://www.youtube.com/embed/ycF7wwak_io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="300" height="220" src="https://www.youtube.com/embed/yk-3Swis2Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="330" height="220" src="https://www.youtube.com/embed/ycF7wwak_io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="330" height="220" src="https://www.youtube.com/embed/yk-3Swis2Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 <br>
@@ -74,11 +75,12 @@ A preview of the 3D model of Bbot can be seen below.
 
 ## Detailed view
 
-For more details about the project, see the project website [HERE](https://braziliansinrobotics.com/project-bbot/). We have all the steps to create this project.
+For more details about the project, see the [project posts](https://matheusfranca-dev.github.io/posts/bbot-project/#project-posts). We have all the steps to create this project.
 
 Also see the following:
+
 - Project sponsor: [Senai CIMATEC](http://www.senaicimatec.com.br/en/).
-- The lab website: [Robotics & Autonomous Systems](https://braziliansinrobotics.com/).
+- The lab: Robotics & Autonomous Systems (website no longer available).
 - GitHub: [Real Bbot](https://github.com/Brazilian-Institute-of-Robotics/bir_bbot) and [Simulated Bbot](https://github.com/Brazilian-Institute-of-Robotics/bir_bbot-simulation).
 
 ## Development team
@@ -104,7 +106,7 @@ Also see the following:
           <td width="33%"><center><a href="https://linkedin.com/in/lucas-lins-souza-51b1909a">Lucas Souza</a></center></td>
           <td></td>
           <td width="33%"><center><a href="https://mhar-vell.github.io/portfolio/">Marco Reis</a></center></td>
-          <td></td>
+          <td></td>http://127.0.0.1:4000/project-bbot/#bbot
         </tr>
       </tbody>
     </table>
@@ -120,3 +122,18 @@ Also see the following:
 2. Start date: <font color="#fbb117">May/2021</font>
 3. End date: <font color="#fbb117">December/2021</font>
 4. Total articles produced: 1 (for more, see the [publications](https://matheusfranca-dev.github.io/publications/) tab)
+
+## Project Posts
+
+1. [Model definition](https://matheusfranca-dev.github.io/articles/bbot-model-definition/)
+2. [Features](https://matheusfranca-dev.github.io/articles/bbot-functionality/)
+3. [Mechanical Design](https://matheusfranca-dev.github.io/articles/bbot-mechanical-design/)
+4. [Simulation](https://matheusfranca-dev.github.io/articles/bbot-simulation/)
+5. [Assembly Process](https://matheusfranca-dev.github.io/articles/bbot-assembly/)
+6. [Electronic Tests](https://matheusfranca-dev.github.io/articles/bbot-test-ee/)
+7. [Real Tests](https://matheusfranca-dev.github.io/articles/bbot-real-tests/)
+8. [Mathematical model](https://matheusfranca-dev.github.io/articles/bbot-math-model/)
+9. [Python Control](https://matheusfranca-dev.github.io/articles/bbot-py-control/)
+10. [Final Mission Simulation](https://matheusfranca-dev.github.io/articles/bbot-final-mission-simulation/)
+11. [First Time Standing](https://matheusfranca-dev.github.io/articles/bbot-first-time-standing/)
+12. [Conclusion](https://matheusfranca-dev.github.io/articles/bbot-final/)

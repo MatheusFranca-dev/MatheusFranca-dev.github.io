@@ -46,25 +46,25 @@ For a detailed view of the experiments, including videos and results, see the [p
 
 Conducted using one robot dedicated to object manipulation and another responsible for printing ceramic construction blocks.
 
-<center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/kZLIPbeN0SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/kZLIPbeN0SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
 
 ### Multi-Robot Manipulation and Printing Integration Experiment
 
 In this experiment, the robots were previously trained and are fully integrated with ROS 2 and Behavior Tree CPP. In the environment, the yellow robots (R3) are responsible for identifying possible obstacles (represented by red cubes) and dragging them to a disposal area. The obstacles are categorized as small, which can be handled by a single robot; medium, which require the cooperation of two or more robots; and large, which require the collaboration of three or more robots. This behavior is essential to assist the blue robot (R1) in printing ceramic blocks in the environment, ensuring that no obstacle hinders its progress.
 
-<center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/1wFDXl8tHWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/1wFDXl8tHWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
 
 ### Multi-Robot Collaboration Experiment in Complex Structure Printing
 
 In this experiment, the blue robot (R1) starts the process of printing sections to simulate the construction of a door. To print in a challenging area, specifically between both sides of the door, R1 requires support. At this point, the purple robot (R4) is called by R1. This request occurs after R1 prints the left and right supports of the door. R4 then navigates to position itself in the middle of the door. This strategic position allows R1 to successfully complete the printing of the door frame.
 
-<center>
-<iframe width="360" height="315" src="https://www.youtube.com/embed/DOPk4aFZuio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/DOPk4aFZuio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
 
 ## Conclusion
 
@@ -103,5 +103,5 @@ By combining collaborative multi-robot systems with additive manufacturing, this
 
 1. Category: <font color="#fbb117">Multi-Robot System</font>
 2. Start date: <font color="#fbb117">May/2022</font>
-3. Expected end date: <font color="#fbb117">July/2024</font>
+3. End date: <font color="#fbb117">July/2024</font>
 4. Two articles produced and my Master's Thesis (for more, see the [publications](https://matheusfranca-dev.github.io/publications/) tab)

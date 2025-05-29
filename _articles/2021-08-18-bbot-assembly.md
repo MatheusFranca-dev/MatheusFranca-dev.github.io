@@ -74,7 +74,11 @@ In the **fifth stage** of the project, we present the construction of **Bbot**.
 
 <div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/f9vfHLqY0YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+<br>
+
 In the next stages, tests with the real robot will be presented.
+
+<br>
 
 <div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/6xNG0_EvZec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

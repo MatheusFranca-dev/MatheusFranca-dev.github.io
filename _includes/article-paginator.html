@@ -1,0 +1,72 @@
+<ul class="pagination align-items-center mt-4 mb-0 pl-lg-2">
+  {%- comment -%} ← LEFT ARROW {%- endcomment -%}
+  {% if page_num > 1 %}
+    {% assign prev_page = page_num | minus: 1 %}
+    {% if prev_page == 1 %}
+      {% assign prev_url = "/articles/" %}
+    {% else %}
+      {% assign prev_url = "/articles/page" | append: prev_page | append: "/" %}
+    {% endif %}
+  {% else %}
+    {% assign prev_url = "#" %}
+  {% endif %}
+  <li class="page-item {% if page_num <= 1 %}disabled{% endif %}">
+    <a class="page-link btn-box-shadow" href="{{ prev_url }}" aria-label="previous-page">
+      <i class="fas fa-angle-left"></i>
+    </a>
+  </li>
+
+  {%- comment -%} ← PAGE NUMBERS + ELLIPSIS {%- endcomment -%}
+  {% assign left_ellipsis = false %}
+  {% assign right_ellipsis = false %}
+  {% assign pre = page_num | minus: 1 %}
+  {% assign nxt = page_num | plus: 1 %}
+
+  {% for i in (1..total_pages) %}
+    {% assign show = false %}
+    {% if page_num == 1 %}
+      {% if i <= 3 or i == total_pages %}{% assign show = true %}{% endif %}
+    {% elsif page_num == total_pages %}
+      {% if i == 1 or i >= pre %}{% assign show = true %}{% endif %}
+    {% else %}
+      {% if i == 1 or i == total_pages or (i >= pre and i <= nxt) %}{% assign show = true %}{% endif %}
+    {% endif %}
+
+    {% if show %}
+      <li class="page-item {% if i == page_num %}active{% endif %}">
+        {% if i == 1 %}
+          {% assign url = "/articles/" %}
+        {% else %}
+          {% assign url = "/articles/page" | append: i | append: "/" %}
+        {% endif %}
+        <a class="page-link btn-box-shadow" href="{{ url }}">{{ i }}</a>
+      </li>
+    {% else %}
+      {% if i < pre and left_ellipsis == false %}
+        <li class="page-item disabled"><span class="page-link btn-box-shadow">…</span></li>
+        {% assign left_ellipsis = true %}
+      {% elsif i > nxt and right_ellipsis == false %}
+        <li class="page-item disabled"><span class="page-link btn-box-shadow">…</span></li>
+        {% assign right_ellipsis = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%} ← MOBILE PAGE INDEX {%- endcomment -%}
+  <li class="page-index align-middle">
+    <span>{{ page_num }}</span>
+    <span class="text-muted">/ {{ total_pages }}</span>
+  </li>
+
+  {%- comment -%} ← RIGHT ARROW {%- endcomment -%}
+  {% if page_num < total_pages %}
+    {% assign next_url = "/articles/page" | append: nxt | append: "/" %}
+  {% else %}
+    {% assign next_url = "#" %}
+  {% endif %}
+  <li class="page-item {% if page_num >= total_pages %}disabled{% endif %}">
+    <a class="page-link btn-box-shadow" href="{{ next_url }}" aria-label="next-page">
+      <i class="fas fa-angle-right"></i>
+    </a>
+  </li>
+</ul>

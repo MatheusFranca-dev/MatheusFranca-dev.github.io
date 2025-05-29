@@ -84,6 +84,8 @@ The Dynamixel showed satisfactory results for speed and position control. The po
 
 <div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/s95iISFyurc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+<br>
+
 <div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/-lRE_ntTgp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ### Test 5 - MPU6050
@@ -116,6 +118,8 @@ The test was performed by powering the OpenCM485 with a bench supply between 11.
 The Dynamixel showed satisfactory results for speed control. At 14.8 V it reaches a speed of approximately 95 rpm.
 
 <div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ku5Ztdp1ibE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
 
 <div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/E79M9DK45sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

@@ -23,15 +23,11 @@ We then implemented a **moving average filter** to try to attenuate the control 
 
 In the end, we managed to parameterize the controller ideally and **the robot can now balance itself** without vibrations and is much more stable!
 
-<center>
-<iframe width="720" height="315" src="https://www.youtube.com/embed/L74pwDNFQ-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/L74pwDNFQ-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 After a few more adjustments to the Kalman filter and controller parameterization, we were able to teleoperate Bbot! We tested teleoperation in a maze and with obstacles, which Bbot overcame. We also tested the robot climbing a ramp. All these tests can be seen below.
 
-<center>
-<iframe width="720" height="315" src="https://www.youtube.com/embed/Q13y1XcuO6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<div class="container"> <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Q13y1XcuO6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Here is also the [link](https://drive.google.com/file/d/1hK2yDdlPlVJKzNW8LdJWVODII6iUBTKq/view?usp=sharing) to the presentation made to discuss the main ideas of Bbot with other researchers at the Center of Competence in Robotics and Autonomous Systems. This same presentation can be viewed below.
 
